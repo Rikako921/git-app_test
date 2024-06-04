@@ -1,3 +1,4 @@
 class TestsController < ApplicationController
-  resources :tests, only: :index
+  def index
+  end
 end
